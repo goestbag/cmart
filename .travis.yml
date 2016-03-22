@@ -1,12 +1,11 @@
 language: java
-
 jdk:
     - oraclejdk8
-
 services:
     - mysql
-
 before_install: 
     - mysql -uroot -e "grant all on cmart.* to cmart@localhost identified by 'java'"
     - mysql -uroot -e "drop database if exists cmart"
     - mysql -uroot -e "create database cmart"
+after_success:
+	- mvn jacoco:report coveralls:report
