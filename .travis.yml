@@ -8,4 +8,4 @@ before_install:
     - mysql -uroot -e "drop database if exists cmart"
     - mysql -uroot -e "create database cmart"
 after_success:
-	- mvn jacoco:report coveralls:report
+- mvn jacoco:report coveralls:report
