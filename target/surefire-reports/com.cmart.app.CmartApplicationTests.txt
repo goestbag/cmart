@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cmart.app.CmartApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.979 sec - in com.cmart.app.CmartApplicationTests

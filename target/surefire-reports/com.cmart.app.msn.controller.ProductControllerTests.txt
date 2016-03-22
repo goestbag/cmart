@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cmart.app.msn.controller.ProductControllerTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.601 sec - in com.cmart.app.msn.controller.ProductControllerTests
